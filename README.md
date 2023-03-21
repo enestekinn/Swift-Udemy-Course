@@ -1,3 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
 # Swift-UdemyCourse
 The Complete iOS 16 / iOS 15 Developer Course - and SwiftUI!
 
