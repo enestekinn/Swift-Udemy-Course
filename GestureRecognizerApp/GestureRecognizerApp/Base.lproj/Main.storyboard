@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jameshetfield.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0s0-1U-O67">
+                                <rect key="frame" x="42" y="129" width="309" height="245"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="James Hetfield" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mea-JU-Jdx">
+                                <rect key="frame" x="84" y="407" width="225" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="IPC-6G-bfu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mea-JU-Jdx" firstAttribute="top" secondItem="0s0-1U-O67" secondAttribute="bottom" constant="33" id="GKh-BJ-fH5"/>
+                            <constraint firstItem="Mea-JU-Jdx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="HDP-SK-jFS"/>
+                            <constraint firstItem="0s0-1U-O67" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="gLB-Ug-ttk"/>
+                            <constraint firstItem="0s0-1U-O67" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="kra-L7-bg7"/>
+                            <constraint firstItem="0s0-1U-O67" firstAttribute="centerX" secondItem="Mea-JU-Jdx" secondAttribute="centerX" id="new-hc-oqN"/>
+                            <constraint firstItem="0s0-1U-O67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pYL-eq-c9C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mea-JU-Jdx" secondAttribute="bottom" constant="337" id="zbO-Av-SIR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0s0-1U-O67" id="cYn-kC-2Qn"/>
+                        <outlet property="myLabel" destination="Mea-JU-Jdx" id="kB6-Z0-tW8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jameshetfield.jpeg" width="681" height="942"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
